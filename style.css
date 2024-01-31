@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-upper{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+@media only screen and (min-wdth:300px) and (min-wdth:970px) {
+
+    .upper-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+.upper-container{
+
+    background-color: #FFCD9E ;
+    height: 70vh;
+    display: flex;
+}
+
+.lower-container{
+    
+    background-color: #282828;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-upper{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 76px 0px 76px 150px;
+}
+
+.right-upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.firstline{
+
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom:  3vh ;
+
+}
+
+.secondline{
+    margin-bottom:  3vh 
+
+}
+
+.thirdline{
+
+    margin-bottom:  3vh ;
+    font-weight: bold;
+
+}
+
+.input-form{
+    height: 45px;
+    width: 64%;
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.lastline{
+    margin-left: 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.addEmail{
+    margin-bottom:  3vh ;
+}
+
+.submit-btn{
+    height: 45px;
+    width: 34%;
+    background-color: #282828;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-lower{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+ 
+}
+
+.right-lower{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    color: #ffffff;
+
+}
+
+li{
+    list-style: none;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
